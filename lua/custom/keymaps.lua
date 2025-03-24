@@ -1,0 +1,6 @@
+vim.keymap.set('n', '<C-s>', '<cmd> w <CR>', { desc = 'Save file' })
+vim.keymap.set('n', 'x', '"_x', { desc = 'Delete single character without copying into regiser' })
+vim.keymap.set('n', '<Tab>', ':bnext<CR>', { desc = 'Navigate to next buffer' })
+vim.keymap.set('n', '<S-Tab>', ':bnext<CR>', { desc = 'Navigate to previous buffer' })
+vim.keymap.set('n', '<leader>x', ':bdelete <CR>', { desc = 'Close buffer' })
+vim.keymap.set('n', '<leader>b', '<cmd> enew <CR>', { desc = 'New buffer' })
